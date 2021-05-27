@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Wolfgang</First><Last>Wagner</Last></Person>
+    <Email>wwagner@ukaachen.de, simone.bork@med.uni-heidelberg.de, ckoch@ukaachen.de</Email>
+    <Phone>+49 241 8088611</Phone>
+    <Department>Helmholtz-Institute for Biomedical Engineering</Department>
+    <Organization>Aachen University Medical School</Organization>
+    <Address>
+      <Line>Pauwelsstrasse 20</Line>
+      <City>Aachen</City>
+      <Zip-Code>52074</Zip-Code>
+      <Country>Germany</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Organization>Illumina Inc.</Organization>
+    <Email>expression@illumina.com, techsupport@illumina.com</Email>
+    <Phone>1 800 809 4566 </Phone>
+    <Organization>Illumina Inc.</Organization>
+    <Address>
+      <Line>9885 Towne Centre Drive</Line>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip-Code>92121</Zip-Code>
+      <Country>USA</Country>
+    </Address>
+    <Web-Link>www.illumina.com</Web-Link>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Carmen</First><Last>Koch</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib4">
+    <Person><First>Christoph</First><Middle>V</Middle><Last>Suschek</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib5">
+    <Person><First>Simone</First><Last>Bork</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib6">
+    <Person><First>Qiong</First><Last>Lin</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib7">
+    <Person><First>Maria</First><Last>Goergens</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib8">
+    <Person><First>Sylvia</First><Last>Joussen</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib9">
+    <Person><First>Norbert</First><Last>Pallua</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib10">
+    <Person><First>Anthony</First><Middle>D</Middle><Last>Ho</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib11">
+    <Person><First>Martin</First><Last>Zenke</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL8490">
+    <Status database="GEO">
+      <Submission-Date>2009-04-27</Submission-Date>
+      <Release-Date>2009-04-27</Release-Date>
+      <Last-Update-Date>2015-01-02</Last-Update-Date>
+    </Status>
+    <Title>Illumina HumanMethylation27 BeadChip (HumanMethylation27_270596_v.1.2)</Title>
+    <Accession database="GEO">GPL8490</Accession>
+    <Technology>oligonucleotide beads</Technology>
+    <Distribution>commercial</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer>Illumina, Inc.</Manufacturer>
+    <Manufacture-Protocol>
+See manufacturer's website
+    </Manufacture-Protocol>
+    <Description>
+HumanMethylation27 DNA Analysis BeadChip allows researchers to interrogate 27,578 highly informative CpG sites per sample at single-nucleotide resolution. This 12-sample BeadChip features content derived from the well-annotated NCBI CCDS database (Genome Build 36) and is supplemented with more than 1,000 cancer-related genes described in published literature. Probe content has been enriched to deeply cover more than 150 well-established cancer genes known to show differential methylation patterns. HumanMethylation27 BeadChip content also targets the promoter regions of 110 miRNA genes.
+    </Description>
+    <Web-Link>http://www.illumina.com/pages.ilmn?ID=243</Web-Link>
+    <Contact-Ref ref="contrib2" />
+    <Supplementary-Data type="CSV">
+ftp://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL8nnn/GPL8490/suppl/GPL8490_HumanMethylation27_270596_v.1.2.csv.gz
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID</Name>
+        <Description>Illumina probe ID</Description>
+      </Column>
+      <Column position="2">
+        <Name>Name</Name>
+      </Column>
+      <Column position="3">
+        <Name>IlmnStrand</Name>
+      </Column>
+      <Column position="4">
+        <Name>AddressA_ID</Name>
+      </Column>
+      <Column position="5">
+        <Name>AlleleA_ProbeSeq</Name>
+      </Column>
+      <Column position="6">
+        <Name>AddressB_ID</Name>
+      </Column>
+      <Column position="7">
+        <Name>AlleleB_ProbeSeq</Name>
+      </Column>
+      <Column position="8">
+        <Name>GenomeBuild</Name>
+      </Column>
+      <Column position="9">
+        <Name>Chr</Name>
+      </Column>
+      <Column position="10">
+        <Name>MapInfo</Name>
+      </Column>
+      <Column position="11">
+        <Name>Ploidy</Name>
+      </Column>
+      <Column position="12">
+        <Name>Species</Name>
+      </Column>
+      <Column position="13">
+        <Name>Source</Name>
+      </Column>
+      <Column position="14">
+        <Name>SourceVersion</Name>
+      </Column>
+      <Column position="15">
+        <Name>SourceStrand</Name>
+      </Column>
+      <Column position="16">
+        <Name>SourceSeq</Name>
+      </Column>
+      <Column position="17">
+        <Name>TopGenomicSeq</Name>
+      </Column>
+      <Column position="18">
+        <Name>Next_Base</Name>
+      </Column>
+      <Column position="19">
+        <Name>Color_Channel</Name>
+      </Column>
+      <Column position="20">
+        <Name>TSS_Coordinate</Name>
+      </Column>
+      <Column position="21">
+        <Name>Gene_Strand</Name>
+      </Column>
+      <Column position="22">
+        <Name>Gene_ID</Name>
+      </Column>
+      <Column position="23">
+        <Name>Symbol</Name>
+      </Column>
+      <Column position="24">
+        <Name>Synonym</Name>
+      </Column>
+      <Column position="25">
+        <Name>Accession</Name>
+      </Column>
+      <Column position="26">
+        <Name>GID</Name>
+      </Column>
+      <Column position="27">
+        <Name>Annotation</Name>
+      </Column>
+      <Column position="28">
+        <Name>Product</Name>
+      </Column>
+      <Column position="29">
+        <Name>Distance_to_TSS</Name>
+      </Column>
+      <Column position="30">
+        <Name>CPG_ISLAND</Name>
+      </Column>
+      <Column position="31">
+        <Name>CPG_ISLAND_LOCATIONS</Name>
+      </Column>
+      <Column position="32">
+        <Name>MIR_CPG_ISLAND</Name>
+      </Column>
+      <Column position="33">
+        <Name>RANGE_GB</Name>
+      </Column>
+      <Column position="34">
+        <Name>RANGE_START</Name>
+      </Column>
+      <Column position="35">
+        <Name>RANGE_END</Name>
+      </Column>
+      <Column position="36">
+        <Name>RANGE_STRAND</Name>
+      </Column>
+      <Column position="37">
+        <Name>GB_ACC</Name>
+      </Column>
+      <Column position="38">
+        <Name>ORF</Name>
+        <Link-Prefix>http://www.ncbi.nlm.nih.gov/gene/</Link-Prefix>
+      </Column>
+    <External-Data rows="27578">
+GPL8490-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Platform>
+
+  <Sample iid="GSM559636">
+    <Status database="GEO">
+      <Submission-Date>2010-06-24</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-arm_donor1_21yrs_P3</Title>
+    <Accession database="GEO">GSM559636</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from arm of donor1 (21 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from arm
+      </Characteristics>
+      <Characteristics tag="age">
+21 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-arm_21yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM559636-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560599">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-abdomen_donor2_17yrs_P3</Title>
+    <Accession database="GEO">GSM560599</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from abdomen of donor2 (17 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from abdomen
+      </Characteristics>
+      <Characteristics tag="age">
+17 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-abdomen_17yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560599-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560600">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-abdomen_donor3_17yrs_P3</Title>
+    <Accession database="GEO">GSM560600</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from abdomen of donor3 (17 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from abdomen
+      </Characteristics>
+      <Characteristics tag="age">
+17 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-abdomen_17yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560600-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560601">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-leg_donor4_8yrs_P3</Title>
+    <Accession database="GEO">GSM560601</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from leg of donor4 (8 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from leg
+      </Characteristics>
+      <Characteristics tag="age">
+8 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-leg_8yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560601-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560602">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-otoplastic_donor5_6yrs_P3</Title>
+    <Accession database="GEO">GSM560602</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from otoplastic of donor5 (6 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from otoplastic
+      </Characteristics>
+      <Characteristics tag="age">
+6 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-otoplastic_6yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560602-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560603">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-breast_donor6_18yrs_P3</Title>
+    <Accession database="GEO">GSM560603</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from breast of donor6 (18 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from breast
+      </Characteristics>
+      <Characteristics tag="age">
+18 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-breast_18yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560603-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560604">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-abdomen_donor14_23yrs_P3</Title>
+    <Accession database="GEO">GSM560604</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from abdomen of donor14 (23 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from abdomen
+      </Characteristics>
+      <Characteristics tag="age">
+23 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-abdomen_23yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560604-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560606">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-otoplastic_donor15_6yrs_P3</Title>
+    <Accession database="GEO">GSM560606</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from otoplastic of donor15 (6 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from otoplastic
+      </Characteristics>
+      <Characteristics tag="age">
+6 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-otoplastic_6yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560606-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560607">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-otoplastic_donor15_6yrs_P21</Title>
+    <Accession database="GEO">GSM560607</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from otoplastic of donor15 (6 years old) - passage 21</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from otoplastic
+      </Characteristics>
+      <Characteristics tag="age">
+6 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+21
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-otoplastic_6yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560607-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560608">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-arm_donor7_63yrs_P3</Title>
+    <Accession database="GEO">GSM560608</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from arm of donor7 (63 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from arm
+      </Characteristics>
+      <Characteristics tag="age">
+63 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-arm_63yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560608-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560609">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-abdomen_donor8_73yrs_P3</Title>
+    <Accession database="GEO">GSM560609</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from abdomen of donor8 (73 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from abdomen
+      </Characteristics>
+      <Characteristics tag="age">
+73 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-abdomen_73yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560609-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560612">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-abdomen_donor9_63yrs_P3</Title>
+    <Accession database="GEO">GSM560612</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from abdomen of donor9 (63 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from abdomen
+      </Characteristics>
+      <Characteristics tag="age">
+63 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-abdomen_63yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560612-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560613">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-leg_donor10_61yrs_P3</Title>
+    <Accession database="GEO">GSM560613</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from leg of donor10 (61 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from leg
+      </Characteristics>
+      <Characteristics tag="age">
+61 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-leg_61yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560613-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560614">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-blepharoblast_donor11_64yrs_P3</Title>
+    <Accession database="GEO">GSM560614</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from blepharoblast of donor11 (64 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from blepharoblast
+      </Characteristics>
+      <Characteristics tag="age">
+64 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-blepharoblast_64yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560614-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Sample iid="GSM560615">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2012-02-14</Last-Update-Date>
+    </Status>
+    <Title>HDF-breast_donor12_60yrs_P3</Title>
+    <Accession database="GEO">GSM560615</Accession>
+    <Type>genomic</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Human dermal fibroblast from breast of donor12 (60 years old) - passage 3</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="cell type">
+human dermal fibroblasts from breast
+      </Characteristics>
+      <Characteristics tag="age">
+60 year old human donor
+      </Characteristics>
+      <Characteristics tag="cell passage">
+3
+      </Characteristics>
+      <Biomaterial-Provider>Aachen University Medical School
+</Biomaterial-Provider>
+      <Treatment-Protocol>
+Cells were harvested by trypsination after passage 3.
+      </Treatment-Protocol>
+      <Growth-Protocol>
+Human fibroblasts were isolated from different dermal regions of healthy donors. All samples were taken after written consent, using guidelines approved by the Ethic Committee on the Use of Human Subjects at the University of Aachen.    
+Skin samples were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2. After 7-10 days initial colonies were replated in a new culture flask (passage 1, P1). Upon subconfluent growth (80%) cells were always replated at a density of 5x10(3) cells/cm(2).
+      </Growth-Protocol>
+      <Molecule>genomic DNA</Molecule>
+      <Extract-Protocol>
+Genomic DNA of approximately 10(6) dermal fibroblasts was isolated using the QIAGEN DNA Blood Midi-Kit. DNA quality was assessed with a NanoDrop ND-1000 spectrometer (NanoDrop Technologies, Wilmigton, Del) and average fragment length was assessed by gel electrophoresis.
+      </Extract-Protocol>
+      <Label>Biotin</Label>
+      <Label-Protocol>
+Genomic DNA (600 ng) from each sample was bisulfite converted using the EpiTect Bisulfite Kit (Qiagen, Hilden, Germany). This step leads to the deamination of non-methylated cytosines to uracils, while methylated cytosines are refractory to the effects of bisulfite and remain cytosine. After bisulfate conversion each sample was whole genome amplified and enzymatically fragmented.
+      </Label-Protocol>
+    </Channel>
+    <Hybridization-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was hybridized with 200ng DNA.
+    </Hybridization-Protocol>
+    <Scan-Protocol>
+The HumanMethylation27 BeadChip (Illumina, San Diego, USA) was scanned using the BeadArray Reader.
+    </Scan-Protocol>
+    <Description>
+Human dermal fibroblasts-breast_60yrs
+    </Description>
+    <Data-Processing>
+Initial data analysis was performed with the BeadStudio Methylation software from Illumina (ie, BeadStudio Methylation Analysis Module 3.2.0). Raw data were background normalized.
+    </Data-Processing>
+    <Platform-Ref ref="GPL8490" />
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Data-Table>
+      <Column position="1">
+        <Name>ID_REF</Name>
+      </Column>
+      <Column position="2">
+        <Name>VALUE</Name>
+        <Description>Average Beta value</Description>
+      </Column>
+      <Column position="3">
+        <Name>p-value</Name>
+        <Description>detection p-value</Description>
+      </Column>
+    <External-Data rows="27578">
+GSM560615-tbl-1.txt
+    </External-Data>
+    </Data-Table>
+  </Sample>
+
+  <Series iid="GSE22595">
+    <Status database="GEO">
+      <Submission-Date>2010-06-28</Submission-Date>
+      <Release-Date>2012-02-14</Release-Date>
+      <Last-Update-Date>2015-01-02</Last-Update-Date>
+    </Status>
+    <Title>Methylation Pattern of Human Dermal Fibroblasts </Title>
+    <Accession database="GEO">GSE22595</Accession>
+    <Pubmed-ID>21347436</Pubmed-ID>
+    <Summary>
+In this study, we have analyzed DNA methylation changes upon aging of human dermal fibroblasts by using the HumanMethylation27 BeadChip assessing 27,578 unique CpG sites. Cells were isolated from skin samples donated by young (6-23 years) and elderly (60-73 years) patients undergoing surgical interventions. Strikingly, global DNA-methylation profiles of fibroblasts from the same anatomical site clustered closely together indicating that fibroblasts maintain positional memory even after in vitro culture. 
+    </Summary>
+    <Overall-Design>
+Skin samples from younger or elderly donors were treated with dispase (Roche Diagnostics, Mannheim, Germany) for 12 hours to separate the dermis from the epidermis. The dermis was digested with 0,2% collagenase and 1,5% BSA in collagenase buffer (100mM HEPES, 120mM NaCl, 50mM KCl, 1mM CaCl2, 5mM Glucose) for 45 minutes. Dermal remnants were removed by filtering the digest through a 100µm nylon strainer (Falcon, Becton Dickinson [BD], San Jose, USA). The cells were subsequently washed and expanded in standard medium consisting of DMEM (PAA; 1g/L glucose) supplemented with glutamine (PAA), penicillin/sptrepamycin (PAA) and 10% fetal calf serum (Biochrom, Berlin, Germany) in a humidified atmosphere at 5% CO2.
+Cells were always replated when grown to 80% confluency. For methylation profiles upon aging we have isolated DNA from the samples of passage 3 of younger and elderly donors. For methylation profiles upon long-term culture we have isolated DNA from the samples of early passage (P3) and late passage (P21)
+
+    </Overall-Design>
+    <Type>Methylation profiling by array</Type>
+    <Contributor-Ref ref="contrib3" position="1" />
+    <Contributor-Ref ref="contrib4" position="2" />
+    <Contributor-Ref ref="contrib5" position="3" />
+    <Contributor-Ref ref="contrib6" position="4" />
+    <Contributor-Ref ref="contrib7" position="5" />
+    <Contributor-Ref ref="contrib8" position="6" />
+    <Contributor-Ref ref="contrib9" position="7" />
+    <Contributor-Ref ref="contrib10" position="8" />
+    <Contributor-Ref ref="contrib11" position="9" />
+    <Contributor-Ref ref="contrib1" position="10" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM559636" />
+    <Sample-Ref ref="GSM560599" />
+    <Sample-Ref ref="GSM560600" />
+    <Sample-Ref ref="GSM560601" />
+    <Sample-Ref ref="GSM560602" />
+    <Sample-Ref ref="GSM560603" />
+    <Sample-Ref ref="GSM560604" />
+    <Sample-Ref ref="GSM560606" />
+    <Sample-Ref ref="GSM560607" />
+    <Sample-Ref ref="GSM560608" />
+    <Sample-Ref ref="GSM560609" />
+    <Sample-Ref ref="GSM560612" />
+    <Sample-Ref ref="GSM560613" />
+    <Sample-Ref ref="GSM560614" />
+    <Sample-Ref ref="GSM560615" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE22nnn/GSE22595/suppl/GSE22595_RAW.tar
+    </Supplementary-Data>
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE22nnn/GSE22595/suppl/GSE22595_signals.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA128371" />
+  </Series>
+
+</MINiML>
