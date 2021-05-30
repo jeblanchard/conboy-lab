@@ -1,0 +1,3 @@
+[submodule "geo-processing"]
+	path = geo-processing
+	url = https://github.com/jeblanchard/geo-processing.git
